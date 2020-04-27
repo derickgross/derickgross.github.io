@@ -12,14 +12,14 @@ body {
 }
 
 #intro,
-#mothership,
+#apex,
 #projects,
 #contact,
 .intro-p-1,
 .intro-p-2,
-#mothership-title-container,
-#mothership-info-container,
-.mothership-manage-container {
+#apex-title-container,
+#apex-info-container,
+.apex-manage-container {
   opacity: 0;
   animation: a .5s cubic-bezier(.64,.94,.23,1.11);
   animation-fill-mode: forwards;
@@ -35,15 +35,15 @@ body {
 
 #contact,
 #projects,
-#mothership-title-container {
+#apex-title-container {
   animation-delay: .6s;
 }
 
-#mothership-info-container {
+#apex-info-container {
   animation-delay: .8s;
 }
 
-.mothership-manage-container {
+.apex-manage-container {
   animation-delay: 1s;
 }
 
@@ -162,7 +162,7 @@ p {
   margin-bottom: 15px;
 }
 
-a.mothership {
+a.apex {
  color: #65c8d0;
 }
 
@@ -276,11 +276,11 @@ footer {
 
 /* ---------------------------------
 
-               #mothership
+               #apex
 
 ------------------------------------ */
 
-#mothership {
+#apex {
   background-color: #f7f7f7;
   overflow: hidden;
   justify-content: center;
@@ -289,44 +289,44 @@ footer {
 }
 
 
-#mothership-info-container {
+#apex-info-container {
   margin-bottom: 50px;
   align-items: center;
 }
 
-#mothership-info-container p {
+#apex-info-container p {
 }
 
-#mothership-title-container,
-#mothership-video-container {
+#apex-title-container,
+#apex-video-container {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
 }
 
-#mothership-logo {
+#apex-logo {
   display: inline-block;
   width: 100%;
   max-width: 500px;
   min-width: 200px;
 }
 
-#mothership h2 {
+#apex h2 {
   display: inline-block;
 }
 
-#mothership-info-container,
-#mothership-video-container {
+#apex-info-container,
+#apex-video-container {
   margin-top: 75px;
 }
 
-#mothership-info-container > div,
-#mothership-video-container > div {
+#apex-info-container > div,
+#apex-video-container > div {
   width: 50%;
 }
 
-#mothership-info-container > div:first-of-type,
-#mothership-video-container > div:first-of-type {
+#apex-info-container > div:first-of-type,
+#apex-video-container > div:first-of-type {
   margin-right: 2.5%;
 }
 
@@ -344,31 +344,31 @@ div > iframe {
   max-width: 100%;
 }
 
-#mothership-info-container > div:last-of-type,
-#mothership-video-container > div:last-of-type {
+#apex-info-container > div:last-of-type,
+#apex-video-container > div:last-of-type {
   margin-left: 2.5%;
 }
 
-#mothership-video-container div:last-of-type > p {
+#apex-video-container div:last-of-type > p {
   width: 75%;
 }
 
-.mothership-manage-container {
+.apex-manage-container {
   max-width: 100%;
   display: flex;
   align-items: flex-end;
   padding-top: 50px;
   border-top: 1px solid #eee;
 }
-.mothership-manage-container a {
+.apex-manage-container a {
   display: flex;
   align-items: flex-end;
 }
-.mothership-manage-container img {
+.apex-manage-container img {
   border: 2px solid #65c8d0;
 }
 
-#mothership-repo-btn {
+#apex-repo-btn {
   margin-top: 25px;
   width: 228px;
 }
@@ -474,26 +474,26 @@ div > iframe {
     width: 50px;
   }
 
-  #mothership-info-container,
-  #mothership-video-container {
+  #apex-info-container,
+  #apex-video-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
   }
 
-  #mothership-info-container > div:first-of-type,
-  #mothership-video-container > div:first-of-type {
+  #apex-info-container > div:first-of-type,
+  #apex-video-container > div:first-of-type {
     margin-right: 0;
   }
 
-  #mothership-info-container > div:last-of-type,
-  #mothership-video-container > div:last-of-type {
+  #apex-info-container > div:last-of-type,
+  #apex-video-container > div:last-of-type {
     margin-left: 0;
   }
 
-  #mothership-info-container > div,
-  #mothership-video-container > div {
+  #apex-info-container > div,
+  #apex-video-container > div {
     width: 90%;
   }
 
@@ -513,18 +513,18 @@ div > iframe {
 
 
 @media(max-width: 690px) {
-  #mothership-logo {
+  #apex-logo {
     margin-bottom: 25px;
     width: 75px;
   }
 
-  #mothership-title-container {
+  #apex-title-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
   }
 
-  #mothership-logo {
+  #apex-logo {
     margin-right: 0;
   }
 }
@@ -547,11 +547,11 @@ div > iframe {
     padding: 65px 15%;
   }
 
-  #mothership-info-container {
+  #apex-info-container {
     margin-top: 25px;
   }
 
-  #mothership-repo-btn {
+  #apex-repo-btn {
     align-self: center;
   }
 
@@ -561,11 +561,11 @@ div > iframe {
 }
 
 @media(max-width: 465px) {
-  #mothership-info-container > div {
+  #apex-info-container > div {
     width: 100%;
   }
 
-  #mothership-logo {
+  #apex-logo {
     width: 60px;
   }
 
@@ -596,7 +596,7 @@ div > iframe {
     font-size: 1.2rem;
   }
 
-  #mothership-repo-btn {
+  #apex-repo-btn {
     width: 180px;
   }
 
