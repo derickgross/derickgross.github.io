@@ -38,10 +38,12 @@ body {
 
 #contact,
 #projects,
+#ridgeline-title-container,
 #mothership-title-container {
   animation-delay: .6s;
 }
 
+#ridgeline-info-container,
 #mothership-info-container {
   animation-delay: .8s;
 }
@@ -283,6 +285,7 @@ footer {
 
 ------------------------------------ */
 
+#ridgeline,
 #mothership {
   background-color: #f7f7f7;
   overflow: hidden;
@@ -291,15 +294,18 @@ footer {
   box-shadow: inset 0 -3px 6px rgba(0,0,0,0.15);
 }
 
-
+#ridgeline-info-container,
 #mothership-info-container {
   margin-bottom: 50px;
   align-items: center;
 }
 
+#ridgeline-info-container,
 #mothership-info-container p {
 }
 
+#ridgeline-info-container,
+#ridgeline-title-container,
 #mothership-title-container,
 #mothership-video-container {
   -ms-align-items: center;
@@ -315,6 +321,7 @@ footer {
   min-width: 200px;
 }
 
+#ridgeline,
 #mothership h2 {
   display: inline-block;
 }
@@ -325,19 +332,17 @@ footer {
   margin-top: 75px;
 }
 
+#ridgeline-info-container,
 #mothership-info-container > div,
 #mothership-video-container > div {
   width: 50%;
 }
 
+#ridgeline-info-container > div:first-of-type,
+#ridgeline-video-container > div:first-of-type,
 #mothership-info-container > div:first-of-type,
 #mothership-video-container > div:first-of-type {
   margin-right: 2.5%;
-}
-
-#ridgeline-info-container > div:first-of-type,
-#ridgeline-video-container > div:first-of-type {
-  margin-left: 2.5%;
 }
 
 #setup-command-gif {
@@ -354,14 +359,11 @@ div > iframe {
   max-width: 100%;
 }
 
+#ridgeline-info-container > div:last-of-type,
+#ridgeline-video-container > div:last-of-type,
 #mothership-info-container > div:last-of-type,
 #mothership-video-container > div:last-of-type {
   margin-left: 2.5%;
-}
-
-#ridgeline-info-container > div:last-of-type,
-#ridgeline-video-container > div:last-of-type {
-  margin-right: 2.5%;
 }
 
 #mothership-video-container div:last-of-type > p {
@@ -499,19 +501,32 @@ div > iframe {
     margin-top: 50px;
   }
 
+  #ridgeline-info-container,
+  #ridgeline-video-container,
   #mothership-info-container > div:first-of-type,
   #mothership-video-container > div:first-of-type {
     margin-right: 0;
   }
 
+  #ridgeline-info-container,
+  #ridgeline-video-container,
   #mothership-info-container > div:last-of-type,
   #mothership-video-container > div:last-of-type {
     margin-left: 0;
   }
 
+  #ridgeline-info-container,
+  #ridgeline-video-container,
   #mothership-info-container > div,
   #mothership-video-container > div {
     width: 90%;
+  }
+
+  #ridgeline-info-container,
+  #ridgeline-video-container,
+  #ridgeline-info-container > div:first-of-type,
+  #ridgeline-video-container > div:first-of-type {
+    margin-left: 0;
   }
 
   #deploy-command-gif,
@@ -536,6 +551,7 @@ div > iframe {
     width: 75px;
   }
 
+  #ridgeline-title-container,
   #mothership-title-container {
     -ms-align-items: center;
     align-items: center;
