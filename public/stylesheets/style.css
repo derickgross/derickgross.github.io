@@ -13,10 +13,13 @@ body {
 
 #intro,
 #mothership,
+#ridgeline,
 #projects,
 #contact,
 .intro-p-1,
 .intro-p-2,
+#ridgeline-title-container,
+#ridgeline-info-container,
 #mothership-title-container,
 #mothership-info-container,
 .mothership-manage-container {
@@ -304,6 +307,7 @@ footer {
   justify-content: center;
 }
 
+#ridgeline-logo,
 #mothership-logo {
   display: inline-block;
   width: 100%;
@@ -315,6 +319,7 @@ footer {
   display: inline-block;
 }
 
+#ridgeline-info-container,
 #mothership-info-container,
 #mothership-video-container {
   margin-top: 75px;
@@ -328,6 +333,11 @@ footer {
 #mothership-info-container > div:first-of-type,
 #mothership-video-container > div:first-of-type {
   margin-right: 2.5%;
+}
+
+#ridgeline-info-container > div:first-of-type,
+#ridgeline-video-container > div:first-of-type {
+  margin-left: 2.5%;
 }
 
 #setup-command-gif {
@@ -347,6 +357,11 @@ div > iframe {
 #mothership-info-container > div:last-of-type,
 #mothership-video-container > div:last-of-type {
   margin-left: 2.5%;
+}
+
+#ridgeline-info-container > div:last-of-type,
+#ridgeline-video-container > div:last-of-type {
+  margin-right: 2.5%;
 }
 
 #mothership-video-container div:last-of-type > p {
@@ -474,6 +489,8 @@ div > iframe {
     width: 50px;
   }
 
+  #ridgeline-info-container,
+  #ridgeline-video-container,
   #mothership-info-container,
   #mothership-video-container {
     -ms-align-items: center;
@@ -513,6 +530,7 @@ div > iframe {
 
 
 @media(max-width: 690px) {
+  #ridgeline-logo,
   #mothership-logo {
     margin-bottom: 25px;
     width: 75px;
@@ -524,6 +542,7 @@ div > iframe {
     flex-direction: column;
   }
 
+  #ridgeline-logo,
   #mothership-logo {
     margin-right: 0;
   }
@@ -547,6 +566,7 @@ div > iframe {
     padding: 65px 15%;
   }
 
+  #ridgeline-info-container,
   #mothership-info-container {
     margin-top: 25px;
   }
@@ -565,7 +585,15 @@ div > iframe {
     width: 100%;
   }
 
+  #ridgeline-info-container > div {
+    width: 100%;
+  }
+
   #mothership-logo {
+    width: 60px;
+  }
+
+  #ridgeline-logo {
     width: 60px;
   }
 
