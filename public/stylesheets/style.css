@@ -304,7 +304,6 @@ footer {
 #mothership-info-container p {
 }
 
-#ridgeline-info-container,
 #ridgeline-title-container,
 #mothership-title-container,
 #mothership-video-container {
@@ -332,7 +331,7 @@ footer {
   margin-top: 75px;
 }
 
-#ridgeline-info-container,
+#ridgeline-info-container > div,
 #mothership-info-container > div,
 #mothership-video-container > div {
   width: 50%;
@@ -345,6 +344,7 @@ footer {
   margin-right: 2.5%;
 }
 
+#setup-command-gif-2,
 #setup-command-gif {
   height: auto;
   max-width: 100%;
