@@ -18,6 +18,7 @@ body {
 #contact,
 .intro-p-1,
 .intro-p-2,
+#dagai-title-container,
 #ridgeline-title-container,
 #ridgeline-info-container,
 #mothership-title-container,
@@ -304,6 +305,7 @@ footer {
 #mothership-info-container p {
 }
 
+#dagai-title-container,
 #ridgeline-title-container,
 #mothership-title-container,
 #mothership-video-container {
@@ -312,6 +314,7 @@ footer {
   justify-content: center;
 }
 
+#dagai-logo,
 #ridgeline-logo,
 #mothership-logo {
   display: inline-block;
@@ -551,6 +554,7 @@ div > iframe {
     width: 75px;
   }
 
+  #dagai-title-container,
   #ridgeline-title-container,
   #mothership-title-container {
     -ms-align-items: center;
